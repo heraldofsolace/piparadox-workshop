@@ -1,0 +1,46 @@
+p {
+    background-color: red;
+    width: 100px;
+}
+
+@media only screen and (max-width: 640px) {
+    p {
+        background-color: blue;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+        background-color: green;
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    p {
+        background-color: yellow;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    p {
+        background-color: purple;
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 1536px) {
+    p {
+        background-color: beige;
+        width: 600px;
+    }
+}
+/*
+sm (small) >= 640px
+md (medium) >= 768px
+lg (large) >= 1024px
+xl (extra large) >= 1280px
+2xl >= 1536px
+
+max-width -> <=
+min-width -> >=

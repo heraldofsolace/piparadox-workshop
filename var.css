@@ -1,0 +1,32 @@
+:root {
+  --main-color: #d64541;
+}
+
+p {
+  color: var(--main-color);
+}
+
+span {
+  color: var(--main-color);
+}
+
+div {
+  color: var(--main-color);
+}
+
+
+.two {
+    --test: 20px;
+}
+
+.three {
+    --test: 30px;
+}
+
+.one {
+    width: var(--test, 100px);
+}
+
+.four {
+    width: var(--test);
+}
